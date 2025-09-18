@@ -1,0 +1,40 @@
+# .NET build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet packages
+*.nupkg
+# NuGet restore logs
+.nuget/
+
+# Entity Framework Migrations
+PetProjectAPI.Dal/Migrations/*.Designer.cs
+PetProjectAPI.Dal/Migrations/*.cs
+PetProjectAPI.Dal/Migrations/*.resx
+
+# Docker
+*.db
+Dockerfile*
+docker-compose*
+
+# Others
+*.log
+*.vspscc
+*.vssscc
+
+# OS generated files
+Thumbs.db
+.DS_Store
